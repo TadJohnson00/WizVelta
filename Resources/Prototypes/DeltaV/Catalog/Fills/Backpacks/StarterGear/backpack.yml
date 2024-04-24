@@ -20,5 +20,15 @@
     contents:
       - id: BoxSurvivalMedical
       - id: EmergencyRollerBedSpawnFolded
-      - id: BodyBag_Folded
+      - id: BodyBagFolded
       - id: Portafib
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackMedical
+  id: ClothingBackpackPsychologistFilled
+  components:
+  - type: StorageFill
+    contents:
+    - id: BoxSurvivalMedical
+    - id: RubberStampPsychologist
